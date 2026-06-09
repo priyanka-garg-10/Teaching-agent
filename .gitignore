@@ -1,0 +1,59 @@
+# Environment variables (API keys, DB credentials)
+.env
+.env.*
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+*.pyo
+
+# Uploaded files (PDFs stored locally)
+server/upload_docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Secrets & Keys
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+credentials.json
+
+# uv / pip
+uv.lock
+*.lock
+pip-log.txt
